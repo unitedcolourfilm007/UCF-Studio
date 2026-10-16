@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>United Colour Film Studio — Wedding Photography, Retouching &amp; Restoration</title>
+  <meta name="description" content="United Colour Film Studio — professional wedding photography, portrait sittings, expert photo retouching, old-photo restoration, colourization and premium custom framing. Capturing Moments. Restoring Memories. Framing Life.">
+  <meta property="og:title" content="United Colour Film Studio">
+  <meta property="og:description" content="Every Picture Tells a Story. Wedding photography, retouching, restoration and premium framing.">
+  <meta property="og:image" content="https://picsum.photos/seed/ucfs-hero-1/1200/630.jpg">
+  <meta name="theme-color" content="#16130F">
+  <!-- EDIT: add your real canonical URL when the site is live -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header" id="site-header">
+  <div class="nav-wrap container">
+    <a class="brand" href="#home" aria-label="United Colour Film Studio — home">
+      <svg class="logo-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="10"/>
+        <line x1="14.31" y1="8" x2="20.05" y2="17.94"/>
+        <line x1="9.69" y1="8" x2="21.17" y2="8"/>
+        <line x1="7.38" y1="12" x2="13.12" y2="2.06"/>
+        <line x1="9.69" y1="16" x2="3.95" y2="6.06"/>
+        <line x1="14.31" y1="16" x2="2.83" y2="16"/>
+        <line x1="16.62" y1="12" x2="10.88" y2="21.94"/>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-top">United Colour</span>
+        <span class="brand-sub">Film Studio</span>
+      </span>
+    </a>
+
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#services">Our Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#retouching">Photo Retouching</a>
+      <a href="#weddings">Wedding Photography</a>
+      <a href="#framing">Photo Framing</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-gold nav-cta" href="#contact" data-enquire data-form="booking">Book a Session</a>
+    </nav>
+
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
+      <span class="sr-only">Menu</span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-slides" aria-hidden="true">
+    <!-- EDIT: replace these placeholder photographs with your own wedding images -->
+    <img class="hero-slide is-active" src="https://picsum.photos/seed/ucfs-hero-1/1800/1100.jpg" alt="" fetchpriority="high">
+    <img class="hero-slide" src="https://picsum.photos/seed/ucfs-hero-2/1800/1100.jpg" alt="" loading="lazy" decoding="async">
+    <img class="hero-slide" src="https://picsum.photos/seed/ucfs-hero-3/1800/1100.jpg" alt="" loading="lazy" decoding="async">
+    <img class="hero-slide" src="https://picsum.photos/seed/ucfs-hero-4/1800/1100.jpg" alt="" loading="lazy" decoding="async">
+  </div>
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="hero-frame" aria-hidden="true"></div>
+
+  <div class="hero-inner container">
+    <p class="hero-eyebrow">Weddings &middot; Portraits &middot; Restoration &middot; Framing</p>
+    <h1 class="hero-title">Every Picture Tells<br>a <em>Story.</em></h1>
+    <p class="hero-lede">Professional photography, expert photo retouching, beautiful photo restoration and premium framing — preserving your precious memories for a lifetime.</p>
+    <div class="hero-actions">
+      <a class="btn btn-ivory" href="#portfolio">Explore Our Work</a>
+      <a class="btn btn-ghost" href="#contact">Contact Our Studio</a>
+    </div>
+  </div>
+
+  <div class="hero-meta" aria-hidden="true">
+    <span class="hero-count">Frame <b id="hero-index">01</b>&thinsp;/&thinsp;04</span>
+    <span class="hero-progress"><i id="hero-bar" class="run"></i></span>
+  </div>
+  <p class="hero-tagline" aria-hidden="true">Capturing Moments &middot; Restoring Memories &middot; Framing Life</p>
+  <a class="hero-scroll" href="#services" aria-label="Scroll down to our services">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><path d="M12 4v16m0 0-5-5m5 5 5-5"/></svg>
+  </a>
+</section>
+
+<!-- ============ TAGLINE STRIP ============ -->
+<section class="tagline-strip">
+  <div class="container">
+    <p class="rv">Capturing Moments. <em>Restoring Memories.</em> Framing Life.</p>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services">
+  <div class="container">
+    <header class="sec-head rv">
+      <p class="eyebrow"><span>01</span>What We Do</p>
+      <h2>Our Services</h2>
+      <p class="sec-lede">Six crafts under one roof — from the wedding day itself to the frame it hangs in. Select a service to see everything it includes.</p>
+    </header>
+
+    <div class="svc-list" id="svc-list">
+      <!-- EDIT: service titles, descriptions and bullet lists are plain HTML — replace freely -->
+
+      <article class="svc rv" data-img="https://picsum.photos/seed/ucfs-svc-wed/900/640.jpg">
+        <button class="svc-head" aria-expanded="false">
+          <span class="svc-num">01</span>
+          <span class="svc-name">Wedding Photography</span>
+          <span class="svc-hint">Full-day coverage, albums &amp; couple portraits</span>
+          <span class="svc-plus" aria-hidden="true"></span>
+        </button>
+        <div class="svc-body"><div class="svc-body-in">
+          <img class="svc-img" src="https://picsum.photos/seed/ucfs-svc-wed/900/640.jpg" alt="Bride and groom holding hands at their ceremony" loading="lazy" decoding="async">
+          <div class="svc-detail">
+            <ul class="svc-items">
+              <li>Wedding day photography</li><li>Couple portraits</li>
+              <li>Pre-wedding &amp; engagement photography</li><li>Wedding albums</li>
+              <li>Family and event photography</li>
+            </ul>
+            <div class="svc-actions">
+              <a class="btn btn-small btn-ink" href="#portfolio" data-filter-link="Wedding">View Samples</a>
+              <a class="btn btn-small btn-ghost" href="#contact" data-enquire data-form="booking" data-service="Wedding Photography">Enquire Now</a>
+            </div>
+          </div>
+        </div></div>
+      </article>
+
+      <article class="svc rv" data-img="https://picsum.photos/seed/ucfs-svc-ret/900/640.jpg">
+        <button class="svc-head" aria-expanded="false">
+          <span class="svc-num">02</span>
+          <span class="svc-name">Photo Retouching</span>
+          <span class="svc-hint">Natural, texture-preserving portrait finishing</span>
+          <span class="svc-plus" aria-hidden="true"></span>
+        </button>
+        <div class="svc-body"><div class="svc-body-in">
+          <img class="svc-img" src="https://picsum.photos/seed/ucfs-svc-ret/900/640.jpg" alt="Portrait photograph being carefully retouched" loading="lazy" decoding="async">
+          <div class="svc-detail">
+            <ul class="svc-items">
+              <li>Professional portrait retouching</li><li>Natural skin-tone correction</li>
+              <li>Blemish &amp; glare removal</li><li>Facial detail enhancement</li>
+              <li>Clothing correction</li><li>Background cleanup</li>
+            </ul>
+            <div class="svc-actions">
+              <a class="btn btn-small btn-ink" href="#portfolio" data-filter-link="Photo Retouching">View Samples</a>
+              <a class="btn btn-small btn-ghost" href="#contact" data-enquire data-form="editing" data-service="Photo Retouching">Enquire Now</a>
+            </div>
+          </div>
+        </div></div>
+      </article>
+
+      <article class="svc rv" data-img="https://picsum.photos/seed/ucfs-svc-res/900/640.jpg">
+        <button class="svc-head" aria-expanded="false">
+          <span class="svc-num">03</span>
+          <span class="svc-name">Photo Editing &amp; Restoration</span>
+          <span class="svc-hint">Damaged prints, colourization &amp; fading reversed</span>
+          <span class="svc-plus" aria-hidden="true"></span>
+        </button>
+        <div class="svc-body"><div class="svc-body-in">
+          <img class="svc-img" src="https://picsum.photos/seed/ucfs-svc-res/900/640.jpg" alt="Vintage photograph carefully restored by hand" loading="lazy" decoding="async">
+          <div class="svc-detail">
+            <ul class="svc-items">
+              <li>Old &amp; damaged photo restoration</li><li>Black-and-white photo colourization</li>
+              <li>Scratch &amp; stain removal</li><li>Faded photograph enhancement</li>
+              <li>Colour correction</li><li>Photo sharpening &amp; quality improvement</li>
+            </ul>
+            <div class="svc-actions">
+              <a class="btn btn-small btn-ink" href="#portfolio" data-filter-link="Photo Restoration">View Samples</a>
+              <a class="btn btn-small btn-ghost" href="#contact" data-enquire data-form="editing" data-service="Photo Restoration">Enquire Now</a>
+            </div>
+          </div>
+        </div></div>
+      </article>
+
+      <article class="svc rv" data-img="https://picsum.photos/seed/ucfs-svc-fr/900/640.jpg">
+        <button class="svc-head" aria-expanded="false">
+          <span class="svc-num">04</span>
+          <span class="svc-name">Photo Framing</span>
+          <span class="svc-hint">Custom frames, collages &amp; wall displays</span>
+          <span class="svc-plus" aria-hidden="true"></span>
+        </button>
+        <div class="svc-body"><div class="svc-body-in">
+          <img class="svc-img" src="https://picsum.photos/seed/ucfs-svc-fr/900/640.jpg" alt="Finished portrait in an elegant wooden frame" loading="lazy" decoding="async">
+          <div class="svc-detail">
+            <ul class="svc-items">
+              <li>Custom photo frames</li><li>Family portrait framing</li>
+              <li>Wedding photo frames</li><li>Collage frames</li>
+              <li>Wall photo displays</li><li>Different frame sizes &amp; styles</li>
+            </ul>
+            <div class="svc-actions">
+              <a class="btn btn-small btn-ink" href="#portfolio" data-filter-link="Photo Framing">View Samples</a>
+              <a class="btn btn-small btn-ghost" href="#contact" data-enquire data-form="booking" data-service="Photo Framing">Enquire Now</a>
+            </div>
+          </div>
+        </div></div>
+      </article>
+
+      <article class="svc rv" data-img="https://picsum.photos/seed/ucfs-svc-por/900/640.jpg">
+        <button class="svc-head" aria-expanded="false">
+          <span class="svc-num">05</span>
+          <span class="svc-name">Portrait Photography</span>
+          <span class="svc-hint">Individual, family, graduation &amp; studio sittings</span>
+          <span class="svc-plus" aria-hidden="true"></span>
+        </button>
+        <div class="svc-body"><div class="svc-body-in">
+          <img class="svc-img" src="https://picsum.photos/seed/ucfs-svc-por/900/640.jpg" alt="Studio portrait sitting in soft natural light" loading="lazy" decoding="async">
+          <div class="svc-detail">
+            <ul class="svc-items">
+              <li>Individual portraits</li><li>Family portraits</li>
+              <li>Graduation portraits</li><li>Professional studio portraits</li>
+            </ul>
+            <div class="svc-actions">
+              <a class="btn btn-small btn-ink" href="#portfolio" data-filter-link="Portraits">View Samples</a>
+              <a class="btn btn-small btn-ghost" href="#contact" data-enquire data-form="booking" data-service="Portrait Photography">Enquire Now</a>
+            </div>
+          </div>
+        </div></div>
+      </article>
+
+      <article class="svc rv" data-img="https://picsum.photos/seed/ucfs-svc-col/900/640.jpg">
+        <button class="svc-head" aria-expanded="false">
+          <span class="svc-num">06</span>
+          <span class="svc-name">Photo Collage Design</span>
+          <span class="svc-hint">Wedding walls, memorials &amp; print-ready layouts</span>
+          <span class="svc-plus" aria-hidden="true"></span>
+        </button>
+        <div class="svc-body"><div class="svc-body-in">
+          <img class="svc-img" src="https://picsum.photos/seed/ucfs-svc-col/900/640.jpg" alt="Designed photo collage laid out for printing" loading="lazy" decoding="async">
+          <div class="svc-detail">
+            <ul class="svc-items">
+              <li>Wedding collages</li><li>Family photo collages</li>
+              <li>Birthday &amp; anniversary designs</li><li>Memorial photo designs</li>
+              <li>Custom print-ready layouts</li>
+            </ul>
+            <div class="svc-actions">
+              <a class="btn btn-small btn-ink" href="#portfolio" data-filter-link="Photo Collages">View Samples</a>
+              <a class="btn btn-small btn-ghost" href="#contact" data-enquire data-form="editing" data-service="Photo Collage Design">Enquire Now</a>
+            </div>
+          </div>
+        </div></div>
+      </article>
+    </div>
+
+    <div class="svc-preview" id="svc-preview" aria-hidden="true"><img alt=""></div>
+  </div>
+</section>
+
+<!-- ============ BEFORE & AFTER / RETOUCHING ============ -->
+<section class="section section-dark" id="retouching">
+  <div class="container">
+    <header class="sec-head rv">
+      <p class="eyebrow"><span>02</span>Retouching &amp; Restoration</p>
+      <h2>See the Transformation.</h2>
+      <p class="sec-lede">Drag the handle on each example to compare the original with our work. Every restoration preserves the subject's facial identity and natural appearance — we repair photographs, never rewrite them.</p>
+    </header>
+
+    <div class="ba-showcase rv">
+      <div class="ba-tabs" id="ba-tabs" role="tablist" aria-label="Transformation type" aria-orientation="vertical"></div>
+      <figure class="ba-stage">
+        <div id="ba-main"></div>
+        <figcaption id="ba-caption"></figcaption>
+      </figure>
+    </div>
+    <p class="ba-note rv">These are placeholder demonstrations. The images below are swapped for the studio's real before/after scans as soon as samples are uploaded via <a href="admin.html">Studio Admin</a>.</p>
+  </div>
+</section>
+
+<!-- ============ PORTFOLIO ============ -->
+<section class="section" id="portfolio">
+  <div class="container">
+    <header class="sec-head rv">
+      <p class="eyebrow"><span>03</span>Portfolio</p>
+      <h2>Selected Work.</h2>
+      <p class="sec-lede">A living gallery — new samples appear here the moment the studio publishes them.</p>
+    </header>
+
+    <div class="folio-bar rv">
+      <div class="filters" id="filters" aria-label="Filter portfolio by category"></div>
+      <button class="link-btn" id="open-upload" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><path d="M12 19V5m0 0-6 6m6-6 6 6"/></svg>
+        Add Photos — Studio
+      </button>
+    </div>
+
+    <div class="masonry" id="masonry"></div>
+    <p class="folio-empty" id="folio-empty" hidden>No photographs in this category yet — check back soon.</p>
+
+    <p class="folio-admin-note rv">Studio owner? Manage the full portfolio — uploads, before/after pairs, ordering and deletion — from the <a href="admin.html">Studio Admin dashboard</a>.</p>
+  </div>
+</section>
+
+<!-- Demo upload dialog (browser-only storage; the production route is the backend admin) -->
+<dialog class="dialog" id="upload-dialog" aria-labelledby="upload-title">
+  <form id="upload-form" novalidate>
+    <h3 id="upload-title">Add Portfolio Photos <span class="chip chip-demo">Demo mode</span></h3>
+    <p class="form-warn">Demo mode stores photos in <strong>this browser only</strong> — visitors on other devices will not see them. For permanent, public uploads, run the backend and use the <a href="admin.html">Studio Admin</a> dashboard.</p>
+
+    <div class="field">
+      <label for="up-file">Photograph (required)</label>
+      <div class="file-row">
+        <button type="button" class="btn btn-small btn-ink" id="up-file-btn">Choose file</button>
+        <span class="file-name" id="up-file-name">No file chosen</span>
+      </div>
+      <input type="file" id="up-file" accept="image/jpeg,image/png,image/webp" hidden>
+      <p class="err" id="up-file-err" hidden></p>
+    </div>
+
+    <div class="field" id="up-file2-field">
+      <label for="up-file2">Second image — required only for a Before &amp; After pair</label>
+      <div class="file-row">
+        <button type="button" class="btn btn-small btn-ghost" id="up-file2-btn">Choose file</button>
+        <span class="file-name" id="up-file2-name">No file chosen</span>
+      </div>
+      <input type="file" id="up-file2" accept="image/jpeg,image/png,image/webp" hidden>
+      <p class="err" id="up-file2-err" hidden></p>
+    </div>
+
+    <div class="field">
+      <label for="up-title">Title</label>
+      <input type="text" id="up-title" maxlength="80" placeholder="e.g. Vows at Dawn">
+      <p class="err" id="up-title-err" hidden></p>
+    </div>
+
+    <div class="field">
+      <label for="up-desc">Description (optional)</label>
+      <textarea id="up-desc" rows="2" maxlength="220" placeholder="A line about this sample…"></textarea>
+    </div>
+
+    <div class="field">
+      <label for="up-cat">Category</label>
+      <select id="up-cat"></select>
+    </div>
+
+    <div class="dialog-actions">
+      <button type="button" class="btn btn-small btn-ghost" id="up-cancel">Cancel</button>
+      <button type="submit" class="btn btn-small btn-gold">Add to Portfolio</button>
+    </div>
+    <p class="form-status" id="up-status" role="status"></p>
+  </form>
+</dialog>
+
+<!-- ============ WEDDINGS ============ -->
+<section class="section" id="weddings">
+  <div class="container">
+    <header class="sec-head rv">
+      <p class="eyebrow"><span>04</span>Weddings</p>
+      <h2>Your Day, Photographed Honestly.</h2>
+    </header>
+
+    <div class="wed-grid">
+      <div class="wed-photos rv">
+        <!-- EDIT: replace with your own wedding photography -->
+        <figure class="wed-fig wed-fig-a">
+          <img src="https://picsum.photos/seed/ucfs-wed-a/900/1150.jpg" alt="Bride and groom during their wedding ceremony" loading="lazy" decoding="async">
+          <figcaption>Wedding Ceremonies</figcaption>
+        </figure>
+        <figure class="wed-fig wed-fig-b">
+          <img src="https://picsum.photos/seed/ucfs-wed-b/900/700.jpg" alt="Couple portrait at golden hour" loading="lazy" decoding="async">
+          <figcaption>Couple Portraits</figcaption>
+        </figure>
+      </div>
+
+      <div class="wed-copy">
+        <p class="rv">We photograph weddings quietly and honestly — the rites, the nerves, the laughter in between. Every wedding is covered by an experienced lead photographer, edited by hand in our studio, and finished as an album or framed print built to last generations.</p>
+        <ul class="wed-cats rv">
+          <li><a href="#portfolio" data-filter-link="Wedding">Wedding Ceremonies</a></li>
+          <li><a href="#portfolio" data-filter-link="Wedding">Couple Portraits</a></li>
+          <li><a href="#portfolio" data-filter-link="Wedding">Traditional Weddings</a></li>
+          <li><a href="#portfolio" data-filter-link="Wedding">Reception Photography</a></li>
+          <li><a href="#portfolio" data-filter-link="Wedding">Wedding Albums</a></li>
+        </ul>
+        <a class="btn btn-gold rv" href="#contact" data-enquire data-form="booking" data-service="Wedding Photography">Enquire About Your Date</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FRAMING ============ -->
+<section class="section section-dark" id="framing">
+  <div class="container">
+    <header class="sec-head rv">
+      <p class="eyebrow"><span>05</span>Photo Framing</p>
+      <h2>Made for the Wall.</h2>
+      <p class="sec-lede">A photograph deserves a finish as careful as its capture. Every frame is cut, mounted and assembled in our studio.</p>
+    </header>
+
+    <!-- EDIT: replace with photographs of your actual framed work -->
+    <div class="frame-strip rv">
+      <img src="https://picsum.photos/seed/ucfs-fr-a/600/800.jpg" alt="Framed family portrait in a classic black frame" loading="lazy" decoding="async">
+      <img src="https://picsum.photos/seed/ucfs-fr-b/600/620.jpg" alt="Wedding photograph in a natural oak frame" loading="lazy" decoding="async">
+      <img src="https://picsum.photos/seed/ucfs-fr-c/600/780.jpg" alt="Multi-aperture collage frame on a gallery wall" loading="lazy" decoding="async">
+      <img src="https://picsum.photos/seed/ucfs-fr-d/600/600.jpg" alt="Framed restoration print floating in a brass-edged frame" loading="lazy" decoding="async">
+    </div>
+
+    <div class="frame-menu rv">
+      <h3>Frame Styles &amp; Sizes</h3>
+      <!-- EDIT: sample data — adjust styles and sizes to your workshop's real offering. No prices shown by design; add them here if you wish. -->
+      <ul>
+        <li><span class="fm-name">Classic Black Gallery</span><span class="fm-dots"></span><span class="fm-meta">Slim hardwood, museum glass — 8&times;10&Prime; to 24&times;36&Prime;</span></li>
+        <li><span class="fm-name">Natural Oak</span><span class="fm-dots"></span><span class="fm-meta">Warm oak, off-white mount — A4 to A1</span></li>
+        <li><span class="fm-name">Ivory Linen Box</span><span class="fm-dots"></span><span class="fm-meta">Deep linen-lined frame — 12&times;12&Prime; to 30&times;30&Prime;</span></li>
+        <li><span class="fm-name">Brass Float</span><span class="fm-dots"></span><span class="fm-meta">Floating mount, brass edge — 6&times;8&Prime; to 20&times;30&Prime;</span></li>
+        <li><span class="fm-name">Heritage Gold</span><span class="fm-dots"></span><span class="fm-meta">Ornate gilt for heirloom restorations — 8&times;10&Prime; to 36&times;48&Prime;</span></li>
+        <li><span class="fm-name">Multi-Aperture Collage</span><span class="fm-dots"></span><span class="fm-meta">3–12 openings, wedding &amp; family walls — custom</span></li>
+      </ul>
+      <p class="fm-quote">All framing is quoted per piece — <em>Contact us for a quote.</em></p>
+    </div>
+
+    <a class="btn btn-gold rv" href="#contact" data-enquire data-form="booking" data-service="Photo Framing">Enquire About Custom Framing</a>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="container about-grid">
+    <figure class="about-photo rv">
+      <img src="https://picsum.photos/seed/ucfs-about/900/1100.jpg" alt="Inside the United Colour Film Studio workspace" loading="lazy" decoding="async">
+    </figure>
+    <div class="about-copy">
+      <header class="sec-head left rv">
+        <p class="eyebrow"><span>06</span>About Us</p>
+        <h2>A Studio Built on Memory.</h2>
+      </header>
+      <!-- EDIT: replace this placeholder history with the studio's real story -->
+      <p class="rv">United Colour Film Studio is a photography and photo-imaging studio dedicated to one thing: preserving memories. From the wedding days we photograph to the fifty-year-old prints we rebuild on the retouching bench, our work begins and ends with the moments families cannot afford to lose.</p>
+      <ul class="craft-list rv">
+        <li><span>i</span><div><h3>Commitment to quality</h3><p>Every image is checked, printed and finished by hand before it leaves the studio.</p></div></li>
+        <li><span>ii</span><div><h3>Professional editing &amp; restoration</h3><p>Retouching, colourization and repair performed by trained imaging specialists — never automated shortcuts.</p></div></li>
+        <li><span>iii</span><div><h3>Attention to detail</h3><p>Skin tones, fabric, paper grain, frame joints — the small things are the whole point.</p></div></li>
+        <li><span>iv</span><div><h3>Personalised service</h3><p>You speak to the person holding the camera or the brush. Every enquiry gets a human reply.</p></div></li>
+      </ul>
+      <!-- EDIT: replace sample figures with real ones -->
+      <p class="about-stats rv"><strong>15+</strong> years behind the lens&ensp;·&ensp;<strong>12,000+</strong> photographs restored&ensp;·&ensp;<strong>600+</strong> weddings told</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section" id="testimonials">
+  <div class="container">
+    <header class="sec-head rv">
+      <p class="eyebrow"><span>07</span>Kind Words</p>
+      <h2>What Families Say.</h2>
+      <p class="sec-lede"> <span class="chip chip-sample">Sample content</span> These quotations are placeholders — replace them with real customer feedback as it comes in.</p>
+    </header>
+    <figure class="quote-stage rv">
+      <blockquote id="quote-text"></blockquote>
+      <figcaption id="quote-author"></figcaption>
+      <div class="quote-nav">
+        <button class="quote-btn" id="quote-prev" aria-label="Previous testimonial">&larr;</button>
+        <div class="quote-dots" id="quote-dots"></div>
+        <button class="quote-btn" id="quote-next" aria-label="Next testimonial">&rarr;</button>
+      </div>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ SOCIAL STRIP ============ -->
+<aside class="social-strip" aria-label="Social media">
+  <div class="container social-inner">
+    <p class="social-label rv">Follow the studio <a id="social-ig" href="https://instagram.com/unitedcolourfilmstudio" target="_blank" rel="noopener">@unitedcolourfilmstudio</a></p>
+    <!-- EDIT: replace these squares with a live Instagram feed widget or your latest posts -->
+    <div class="social-grid rv">
+      <img src="https://picsum.photos/seed/ucfs-ig1/400/400.jpg" alt="Recent studio work — social post placeholder 1" loading="lazy" decoding="async">
+      <img src="https://picsum.photos/seed/ucfs-ig2/400/400.jpg" alt="Recent studio work — social post placeholder 2" loading="lazy" decoding="async">
+      <img src="https://picsum.photos/seed/ucfs-ig3/400/400.jpg" alt="Recent studio work — social post placeholder 3" loading="lazy" decoding="async">
+      <img src="https://picsum.photos/seed/ucfs-ig4/400/400.jpg" alt="Recent studio work — social post placeholder 4" loading="lazy" decoding="async">
+      <img src="https://picsum.photos/seed/ucfs-ig5/400/400.jpg" alt="Recent studio work — social post placeholder 5" loading="lazy" decoding="async">
+    </div>
+  </div>
+</aside>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact">
+  <div class="container">
+    <header class="sec-head rv">
+      <p class="eyebrow"><span>08</span>Contact</p>
+      <h2>Book a Session.</h2>
+    </header>
+
+    <div class="contact-grid">
+      <div class="contact-info rv">
+        <dl class="info-list">
+          <div><dt>Phone</dt><dd><a id="c-phone" data-setting="phoneDisplay" data-setting-link="phone" href="#">—</a></dd></div>
+          <div><dt>Email</dt><dd><a id="c-email" data-setting="email" data-setting-link="email" href="#">—</a></dd></div>
+          <div><dt>Studio</dt><dd data-setting="address">—</dd></div>
+          <div><dt>Hours</dt><dd data-setting="hours">—</dd></div>
+        </dl>
+
+        <a class="btn btn-ink" id="wa-contact" data-wa href="#" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z"/>
+            <path d="M9.1 8.4c.2-.5.4-.5.7-.5h.5c.2 0 .5.1.6.5l.8 1.9c.1.2 0 .5-.1.6l-.7.8c.5 1 1.5 2 2.5 2.5l.8-.7c.2-.2.4-.2.6-.1l1.9.8c.4.1.5.4.5.6v.6c0 .3-.1.5-.5.7-.5.2-1.6.5-2.7.1-2.1-.7-4-2.6-4.7-4.7-.4-1.1-.1-2.2.1-2.7Z" fill="currentColor" stroke="none"/>
+          </svg>
+          Chat on WhatsApp
+        </a>
+
+        <div class="map-wrap">
+          <!-- EDIT: replace the src with your studio's own Google Maps embed URL (Maps → Share → Embed a map) -->
+          <iframe id="map-frame" title="Map showing the studio location" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Galle+Face,+Colombo&output=embed"></iframe>
+        </div>
+      </div>
+
+      <div class="contact-forms rv">
+        <div class="form-tabs" role="tablist" aria-label="Enquiry type">
+          <button class="form-tab is-active" id="tab-booking" data-form-tab="booking" role="tab" aria-selected="true" aria-controls="form-booking">Wedding &amp; Event Booking</button>
+          <button class="form-tab" id="tab-editing" data-form-tab="editing" role="tab" aria-selected="false" aria-controls="form-editing">Photo Editing &amp; Restoration</button>
+        </div>
+
+        <!-- Wedding / event booking enquiry -->
+        <form id="form-booking" novalidate>
+          <div class="form-row">
+            <div class="field"><label for="b-name">Name *</label><input type="text" id="b-name" autocomplete="name"><p class="err" hidden></p></div>
+            <div class="field"><label for="b-contact">Phone or email *</label><input type="text" id="b-contact" autocomplete="email"><p class="err" hidden></p></div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label for="b-type">Type of event *</label>
+              <select id="b-type">
+                <option value="">Select…</option>
+                <option>Wedding Photography</option>
+                <option>Portrait Photography</option>
+                <option>Family &amp; Events</option>
+                <option>Photo Framing</option>
+                <option>Photo Collage Design</option>
+                <option>Other</option>
+              </select><p class="err" hidden></p>
+            </div>
+            <div class="field"><label for="b-date">Event date (optional)</label><input type="date" id="b-date"></div>
+          </div>
+          <div class="field"><label for="b-venue">Venue (optional)</label><input type="text" id="b-venue"></div>
+          <div class="field"><label for="b-message">Message *</label><textarea id="b-message" rows="4" placeholder="Tell us about your day…"></textarea><p class="err" hidden></p></div>
+          <button class="btn btn-gold" type="submit">Send Booking Enquiry</button>
+          <p class="form-status" id="b-status" role="status" aria-live="polite"></p>
+        </form>
+
+        <!-- Photo editing / restoration enquiry -->
+        <form id="form-editing" novalidate hidden>
+          <div class="form-row">
+            <div class="field"><label for="e-name">Name *</label><input type="text" id="e-name" autocomplete="name"><p class="err" hidden></p></div>
+            <div class="field"><label for="e-contact">Phone or email *</label><input type="text" id="e-contact"><p class="err" hidden></p></div>
+          </div>
+          <div class="field"><label for="e-service">Required service *</label>
+            <select id="e-service">
+              <option value="">Select…</option>
+              <option>Photo Retouching</option>
+              <option>Photo Restoration</option>
+              <option>Colourization</option>
+              <option>Photo Collage Design</option>
+              <option>Other</option>
+            </select><p class="err" hidden></p>
+          </div>
+          <div class="field"><label for="e-message">Message *</label><textarea id="e-message" rows="4" placeholder="Describe the photograph and what you'd like done…"></textarea><p class="err" hidden></p></div>
+          <div class="field">
+            <label for="e-file">Attach a photograph (optional — JPG/PNG/WebP, up to 10 MB)</label>
+            <div class="file-row">
+              <button type="button" class="btn btn-small btn-ink" id="e-file-btn">Choose file</button>
+              <span class="file-name" id="e-file-name">No file chosen</span>
+            </div>
+            <input type="file" id="e-file" accept="image/jpeg,image/png,image/webp" hidden>
+            <p class="err" id="e-file-err" hidden></p>
+          </div>
+          <button class="btn btn-gold" type="submit">Send Editing Enquiry</button>
+          <p class="form-status" id="e-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="f-brand">
+      <a class="brand" href="#home">
+        <svg class="logo-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"/><line x1="14.31" y1="8" x2="20.05" y2="17.94"/><line x1="9.69" y1="8" x2="21.17" y2="8"/><line x1="7.38" y1="12" x2="13.12" y2="2.06"/><line x1="9.69" y1="16" x2="3.95" y2="6.06"/><line x1="14.31" y1="16" x2="2.83" y2="16"/><line x1="16.62" y1="12" x2="10.88" y2="21.94"/>
+        </svg>
+        <span class="brand-text"><span class="brand-top">United Colour</span><span class="brand-sub">Film Studio</span></span>
+      </a>
+      <p class="f-tag">Capturing Moments.<br>Restoring Memories.<br>Framing Life.</p>
+      <div class="f-social">
+        <a data-setting-link="instagram" href="#" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a data-setting-link="facebook" href="#" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 8h2.5V4.5H15A4.5 4.5 0 0 0 10.5 9v2.5H8V15h2.5v6H14v-6h2.5l.5-3.5h-3V9c0-.6.4-1 1-1Z"/></svg>
+        </a>
+        <a data-wa href="#" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z"/><path d="M9.1 8.4c.2-.5.4-.5.7-.5h.5c.2 0 .5.1.6.5l.8 1.9c.1.2 0 .5-.1.6l-.7.8c.5 1 1.5 2 2.5 2.5l.8-.7c.2-.2.4-.2.6-.1l1.9.8c.4.1.5.4.5.6v.6c0 .3-.1.5-.5.7-.5.2-1.6.5-2.7.1-2.1-.7-4-2.6-4.7-4.7-.4-1.1-.1-2.2.1-2.7Z" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <nav class="f-col" aria-label="Footer — explore">
+      <h3>Explore</h3>
+      <a href="#home">Home</a><a href="#services">Our Services</a><a href="#portfolio">Portfolio</a>
+      <a href="#retouching">Photo Retouching</a><a href="#weddings">Wedding Photography</a>
+      <a href="#framing">Photo Framing</a><a href="#about">About Us</a><a href="#contact">Contact</a>
+    </nav>
+
+    <nav class="f-col" aria-label="Footer — services">
+      <h3>Our Services</h3>
+      <a href="#services" data-svc-open="0">Wedding Photography</a>
+      <a href="#services" data-svc-open="1">Photo Retouching</a>
+      <a href="#services" data-svc-open="2">Photo Editing &amp; Restoration</a>
+      <a href="#services" data-svc-open="3">Photo Framing</a>
+      <a href="#services" data-svc-open="4">Portrait Photography</a>
+      <a href="#services" data-svc-open="5">Photo Collage Design</a>
+    </nav>
+
+    <div class="f-col">
+      <h3>Contact</h3>
+      <a data-setting="phoneDisplay" data-setting-link="phone" href="#">—</a>
+      <a data-setting="email" data-setting-link="email" href="#">—</a>
+      <p data-setting="address">—</p>
+      <p data-setting="hours">—</p>
+      <a data-wa href="#" target="_blank" rel="noopener">WhatsApp us &rarr;</a>
+    </div>
+  </div>
+  <div class="footer-bar">
+    <div class="container footer-bar-in">
+      <p>&copy; <span id="year"></span> United Colour Film Studio. All rights reserved.</p>
+      <a href="admin.html">Studio Admin</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a class="wa-float" data-wa href="#" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z"/>
+    <path d="M9.1 8.4c.2-.5.4-.5.7-.5h.5c.2 0 .5.1.6.5l.8 1.9c.1.2 0 .5-.1.6l-.7.8c.5 1 1.5 2 2.5 2.5l.8-.7c.2-.2.4-.2.6-.1l1.9.8c.4.1.5.4.5.6v.6c0 .3-.1.5-.5.7-.5.2-1.6.5-2.7.1-2.1-.7-4-2.6-4.7-4.7-.4-1.1-.1-2.2.1-2.7Z" fill="currentColor" stroke="none"/>
+  </svg>
+  <span class="wa-tip" aria-hidden="true">Chat with us</span>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
